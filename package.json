@@ -1,0 +1,33 @@
+{
+  "name": "engineer-onboarding-tuan-3",
+  "version": "1.0.0",
+  "description": "",
+  
+  "main": "index.js",
+  "scripts": {
+   "test": "vitest run",
+    "test:watch": "vitest",
+    "cli": "tsx src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HN26112004/engineer-onboarding-tuan-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/HN26112004/engineer-onboarding-tuan-3/issues"
+  },
+  "homepage": "https://github.com/HN26112004/engineer-onboarding-tuan-3#readme",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.0.0"
+  },
+  "dependencies": {
+    "commander": "^15.0.0"
+  }
+}
